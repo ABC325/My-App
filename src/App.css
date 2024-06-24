@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body{
+  background-color: wheat;
+}
+
+.background-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 250px;
+  width: 800px;
+
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 360px;
+}
+
+h1{
+font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+  margin-top: 20px;
+ text-align: left;
+ padding-left: 360px;
+}
+
+h3{
+  font-size: 30px;
+  margin-top: 20px;
+ text-align: left;
+ padding-left: 360px;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+li{
+
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  background-color:gray;
+  color: #fff;
+}
+
+.toggle-container {
+  margin-left: auto;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.text-converter-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
